@@ -7,7 +7,7 @@
     "version": {
       "allowBranch": "master",
       "conventionalCommits": true,
-      "changelogPreset": "conventionalcommits"
+      "changelogPreset": "conventional-changelog-conventionalcommits"
     }
   }
 }
