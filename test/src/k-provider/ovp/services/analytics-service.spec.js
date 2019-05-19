@@ -1,7 +1,7 @@
-import OVPAnalyticsService from '../../../../../src/k-provider/ovp/services/analytics/analytics-service';
-import RequestBuilder from '../../../../../src/util/request-builder';
-import OVPConfiguration from '../../../../../src/k-provider/ovp/config';
-import {param} from '../../../../../src/util/param';
+import OVPAnalyticsService from '../../../../../packages/ovp/services/analytics/analytics-service';
+import RequestBuilder from 'playkit-js-providers-core/util/request-builder';
+import OVPConfiguration from '../../../../../packages/ovp/config';
+import {param} from 'playkit-js-providers-core/util/param';
 
 describe('analytics service - trackEvent', function() {
   const ovpParams = OVPConfiguration.get();

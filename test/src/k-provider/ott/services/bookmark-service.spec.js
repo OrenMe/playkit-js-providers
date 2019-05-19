@@ -1,6 +1,6 @@
-import OTTBookmarkService from '../../../../../src/k-provider/ott/services/bookmark/bookmark-service';
-import RequestBuilder from '../../../../../src/util/request-builder';
-import OTTConfiguration from '../../../../../src/k-provider/ott/config';
+import OTTBookmarkService from '../../../../../packages/ott/services/bookmark/bookmark-service';
+import RequestBuilder from 'playkit-js-providers-core/util/request-builder';
+import OTTConfiguration from '../../../../../packages/ott/config';
 
 describe('bookmark service - add', function() {
   const ottParams = OTTConfiguration.get();

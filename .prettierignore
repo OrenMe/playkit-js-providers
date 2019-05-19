@@ -1,5 +1,7 @@
 /dist
 /src/index.html
+/src/packages/*/*.md
+/src/packages/*/package.json
 CHANGELOG.md
 yarn.lock
 yarn-error.log

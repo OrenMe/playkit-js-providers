@@ -1,7 +1,7 @@
-import OVPStatsService from '../../../../../src/k-provider/ovp/services/stats/stats-service';
-import RequestBuilder from '../../../../../src/util/request-builder';
-import OVPConfiguration from '../../../../../src/k-provider/ovp/config';
-import {param} from '../../../../../src/util/param';
+import OVPStatsService from '../../../../../packages/ovp/services/stats/stats-service';
+import RequestBuilder from 'playkit-js-providers-core/util/request-builder';
+import OVPConfiguration from '../../../../../packages/ovp/config';
+import {param} from 'playkit-js-providers-core/util/param';
 
 describe('stats service - collect', function() {
   let ovpParams, ks, event;

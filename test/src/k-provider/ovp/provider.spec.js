@@ -1,8 +1,8 @@
-import OVPProvider from '../../../../src/k-provider/ovp/provider';
+import OVPProvider from '../../../../packages/ovp/provider';
 import * as BE_DATA from './be-data';
 import * as MEDIA_CONFIG_DATA from './media-config-data';
-import {MultiRequestResult} from '../../../../src/k-provider/common/multi-request-builder';
-import MultiRequestBuilder from '../../../../src/k-provider/common/multi-request-builder';
+import {MultiRequestResult} from 'playkit-js-providers-core/multi-request-builder';
+import MultiRequestBuilder from 'playkit-js-providers-core/multi-request-builder';
 
 describe('OVPProvider.partnerId:1082342', function() {
   let provider, sandbox;

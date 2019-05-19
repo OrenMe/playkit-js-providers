@@ -1,4 +1,4 @@
-import {param} from '../../../src/util/param';
+import {param} from 'playkit-js-providers-core/util/param';
 
 describe('param', function() {
   it('should parse object to query params', function() {

@@ -1,5 +1,5 @@
-import OVPProviderParser from '../../../../src/k-provider/ovp/provider-parser';
-import playbackContext from '../../../../src/k-provider/ovp/response-types/kaltura-playback-context';
+import OVPProviderParser from '../../../../packages/ovp/provider-parser';
+import playbackContext from '../../../../packages/ovp/response-types/kaltura-playback-context';
 import {
   kalturaDashSource,
   kalturaDashSourceFlavorAssets,
