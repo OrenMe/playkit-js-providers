@@ -6,8 +6,7 @@
   "command": {
     "version": {
       "allowBranch": "master",
-      "conventionalCommits": true,
-      "changelogPreset": "conventional-changelog-conventionalcommits"
+      "conventionalCommits": true
     }
   }
 }
