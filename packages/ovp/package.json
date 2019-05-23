@@ -1,6 +1,6 @@
 {
   "name": "multirepo-ovp",
-  "version": "2.18.0",
+  "version": "2.18.1",
   "description": "",
   "scripts": {
     "clean": "rm -rf ./dist",
