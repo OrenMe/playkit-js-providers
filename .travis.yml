@@ -19,7 +19,7 @@ before_install:
   - chmod +x ./scripts/travis.sh
 
 before_script:
-  - git checkout master
+  - git checkout $TRAVIS_COMMIT
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 
 script:
