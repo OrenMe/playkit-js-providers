@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.18.12](https://github.com/kaltura/playkit-js-providers/compare/multirepo-ovp@2.18.11...multirepo-ovp@2.18.12) (2019-05-26)
+
+
+### Bug Fixes
+
+* test ([b6f7f74](https://github.com/kaltura/playkit-js-providers/commit/b6f7f74))
+
+
+
+
+
 ## [2.18.11](https://github.com/kaltura/playkit-js-providers/compare/multirepo-ovp@2.18.10...multirepo-ovp@2.18.11) (2019-05-26)
 
 
