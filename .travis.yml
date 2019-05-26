@@ -40,7 +40,7 @@ jobs:
       env: TRAVIS_MODE=release
       deploy:
         - provider: script
-          script: yarn run lerna:publish -- --no-git-reset
+          script: yarn run lerna:publish -- --no-git-reset --no-git-tag-version
           skip_cleanup: true
           keep_history: true
           on:
