@@ -36,8 +36,8 @@ jobs:
     # https://docs.travis-ci.com/user/build-stages/deploy-github-releases/
     - stage: Release
       name: "Releasing a new version"
-      if: (branch = master) AND (commit_message = "Publish")
-      env: TRAVIS_MODE=release
+      if: (branch = master) AND (commit_message ~ /Publish/)
+#      env: TRAVIS_MODE=release
       deploy:
         - provider: script
           script: yarn run lerna:publish -- --no-git-reset --no-git-tag-version
