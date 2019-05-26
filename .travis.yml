@@ -23,7 +23,6 @@ before_script:
   - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
 
 script:
-  - if [ "$TRAVIS_COMMIT_MESSAGE" -eq "Publish" ]; then $TRAVIS_MODE="release"; else $TRAVIS_MODE="canaryRelease"; fi
   - yarn run lerna run build --scope "multirepo-o*"
 
 stages:
@@ -37,7 +36,7 @@ jobs:
     # https://docs.travis-ci.com/user/build-stages/deploy-github-releases/
     - stage: Release
       name: "Releasing a new version"
-#      if: tag IS present
+      if: (branch = master) AND (commit_message = "Publish")
       env: TRAVIS_MODE=release
       deploy:
         - provider: script
