@@ -75,7 +75,7 @@ jobs:
 #        on:
 #          tags: false
 #          branch: master
-     Required tests
+#     Required tests
     - stage: Tests
       if: (branch = master) OR (type = pull_request)
       name: "Running lint"
