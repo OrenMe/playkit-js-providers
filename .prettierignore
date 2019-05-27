@@ -1,8 +1,7 @@
-/dist
-/src/index.html
-/src/packages/*/*.md
-/src/packages/*/package.json
-CHANGELOG.md
+packages/**/dist
+packages/**/*.md
+packages/**/package.json
+packages/**/CHANGELOG.md
 yarn.lock
 yarn-error.log
 LICENSE

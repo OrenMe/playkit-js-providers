@@ -9,10 +9,8 @@
     "dev": "node_modules/.bin/webpack-dev-server",
     "watch": "node_modules/.bin/webpack --progress --colors --watch",
     "test": "NODE_ENV=test karma start --color",
-    "release": "node_modules/.bin/standard-version",
-    "eslint": "node_modules/.bin/eslint . --color",
+    "eslint": "eslint . -c ../../.eslintrc.json --ignore-path ../../.eslintignore --color",
     "flow": "node_modules/.bin/flow check",
-    "commit:dist": "git add --force --all dist && (git commit -m 'chore: update dist' || exit 0)",
     "precommit": "node_modules/.bin/lint-staged"
   },
   "lint-staged": {
@@ -24,11 +22,6 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "standard-version": {
-    "scripts": {
-      "postbump": "yarn run build && npm run commit:dist"
-    }
   },
   "publishConfig": {
     "access": "public"
@@ -44,7 +37,6 @@
     "karma-cli": "^1.0.1",
     "lint-staged": "^7.2.0",
     "mocha-cli": "^1.0.1",
-    "standard-version": "^4.2.0",
     "webpack": "latest",
     "webpack-dev-server": "latest"
   },

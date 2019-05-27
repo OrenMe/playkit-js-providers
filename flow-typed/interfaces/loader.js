@@ -1,5 +1,5 @@
 //@flow
-import RequestBuilder from 'playkit-js-providers-core/util/request-builder'
+import RequestBuilder from 'playkit-js-providers-core/src/util/request-builder'
 
 declare interface ILoader {
   static name: string;

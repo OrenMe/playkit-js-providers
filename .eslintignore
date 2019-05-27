@@ -1,5 +1,9 @@
 /flow-typed/**/*.js
 /coverage
+/packages/**/coverage
 /dist
+/packages/**/dist
 karma.conf.js
+/packages/**/karma.conf.js
 webpack.config.js
+/packages/**/webpack.config.js

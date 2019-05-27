@@ -47,7 +47,7 @@ function getPlugins(dirPath) {
 const baseConfig = (entryName, libraryName, dirPath) => ({
 
   context: __dirname + dirPath,
-  entry: {[entryName]: __dirname + dirPath + '/index.js'},
+  entry: {[entryName]: __dirname + dirPath + '/src/index.js'},
   output: {
     path: __dirname + dirPath + '/dist',
     filename: '[name].js',
