@@ -1,6 +1,6 @@
 {
   "name": "multirepo-ott",
-  "version": "2.19.0-canary.2",
+  "version": "2.19.1",
   "description": "",
   "scripts": {
     "clean": "rm -rf dist",
