@@ -51,7 +51,7 @@ jobs:
       env: TRAVIS_MODE=releaseCanary
       deploy:
         - provider: script
-          script: yarn run lerna publish -- --canary --preid canary --pre-dist-tag canary --no-git-reset --no-push --no-git-tag-version
+          script: yarn run lerna publish -- --canary --preid canary --pre-dist-tag canary --no-git-reset --no-push --no-git-tag-version --yes
           skip_cleanup: true
           keep_history: true
           on:
