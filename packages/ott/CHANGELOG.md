@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.20.0](https://github.com/kaltura/playkit-js-providers/compare/multirepo-ott@2.18.5...multirepo-ott@2.20.0) (2019-06-02)
+
+
+### Bug Fixes
+
+* test ([372119d](https://github.com/kaltura/playkit-js-providers/commit/372119d))
+* test ([7823e15](https://github.com/kaltura/playkit-js-providers/commit/7823e15))
+
+
+### Features
+
+* add tests, flow, lint ([5a6ca4c](https://github.com/kaltura/playkit-js-providers/commit/5a6ca4c))
+* release canary ([c589982](https://github.com/kaltura/playkit-js-providers/commit/c589982))
+* temp ([78f5d60](https://github.com/kaltura/playkit-js-providers/commit/78f5d60))
+
+
+
+
+
 # [2.19.0-canary.2](https://github.com/kaltura/playkit-js-providers/compare/multirepo-ott@2.18.5...multirepo-ott@2.19.0-canary.2) (2019-06-01)
 
 
