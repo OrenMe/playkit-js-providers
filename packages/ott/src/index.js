@@ -2,7 +2,7 @@
 import OTTProvider from './provider';
 import KalturaPlaybackContext from './response-types/kaltura-playback-context';
 import KalturaAsset from './response-types/kaltura-asset';
-//test
+
 declare var __VERSION__: string;
 declare var __NAME__: string;
 
